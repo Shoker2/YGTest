@@ -1,6 +1,6 @@
 # YGTest
 
-При запуске прокта, будут ошибки в консоли [PluginYG](https://assetstore.unity.com/packages/add-ons/pluginyg-yandex-game-integration-235877). Чтобы устранить ошибки, следует импортировать [PluginYG](https://assetstore.unity.com/packages/add-ons/pluginyg-yandex-game-integration-235877) заного. Возможно также потребуется добавить Newtonsoft Json .NET, но об этом вы сможете [прочитать в документации PluginYG](https://ash-message-bf4.notion.site/PluginYG-d457b23eee604b7aa6076116aab647ed)
+При запуске прокта, будут ошибки в консоли [PluginYG](https://assetstore.unity.com/packages/add-ons/pluginyg-yandex-game-integration-235877). Чтобы устранить ошибки, следует импортировать [PluginYG](https://assetstore.unity.com/packages/add-ons/pluginyg-yandex-game-integration-235877) заного. Возможно также потребуется добавить Newtonsoft Json .NET, но об этом вы сможете [прочитать в документации PluginYG](https://ash-message-bf4.notion.site/PluginYG-d457b23eee604b7aa6076116aab647ed). Важно! Импортировать `YandexGame\WorkingData` и `YandexGame\Example` нельзя!
 
 # Добавление вопросов и результатов
 
