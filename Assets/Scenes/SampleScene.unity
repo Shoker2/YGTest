@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 75070080}
   - component: {fileID: 75070079}
   m_Layer: 5
-  m_Name: TBK
+  m_Name: TitlePanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -199,6 +199,67 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 75070077}
   m_CullTransparentMesh: 1
+--- !u!1001 &109783275
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1586618962485798019, guid: e00367bbf891c1a4699d77bc35ffeed0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.4443588
+      objectReference: {fileID: 0}
+    - target: {fileID: 1586618962485798019, guid: e00367bbf891c1a4699d77bc35ffeed0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 15.350943
+      objectReference: {fileID: 0}
+    - target: {fileID: 1586618962485798019, guid: e00367bbf891c1a4699d77bc35ffeed0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.247523
+      objectReference: {fileID: 0}
+    - target: {fileID: 1586618962485798019, guid: e00367bbf891c1a4699d77bc35ffeed0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1586618962485798019, guid: e00367bbf891c1a4699d77bc35ffeed0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1586618962485798019, guid: e00367bbf891c1a4699d77bc35ffeed0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1586618962485798019, guid: e00367bbf891c1a4699d77bc35ffeed0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1586618962485798019, guid: e00367bbf891c1a4699d77bc35ffeed0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1586618962485798019, guid: e00367bbf891c1a4699d77bc35ffeed0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1586618962485798019, guid: e00367bbf891c1a4699d77bc35ffeed0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2393296000137823920, guid: e00367bbf891c1a4699d77bc35ffeed0, type: 3}
+      propertyPath: m_Name
+      value: ADSceneLoadeManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 5795913792424777177, guid: e00367bbf891c1a4699d77bc35ffeed0, type: 3}
+      propertyPath: DelayAD
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e00367bbf891c1a4699d77bc35ffeed0, type: 3}
 --- !u!1 &167388872
 GameObject:
   m_ObjectHideFlags: 0
@@ -212,7 +273,7 @@ GameObject:
   - component: {fileID: 167388875}
   - component: {fileID: 167388874}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: ButtonsPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -998,52 +1059,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83d73fc6d1eb11245b9f147154b0f893, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Images:
-  - {fileID: 21300000, guid: b452415ab239af34ea70df760fcf6660, type: 3}
-  - {fileID: 21300000, guid: 92974170b9ad81045bd732117ab73acb, type: 3}
-  - {fileID: 21300000, guid: eb8e80cdf1616f44e999148432e34cd3, type: 3}
-  - {fileID: 21300000, guid: d235efc73ef63ec44a8d37072cbdeedc, type: 3}
-  - {fileID: 21300000, guid: 5e3582c0d87cce94baa7bc94fc297335, type: 3}
-  - {fileID: 21300000, guid: a101df79352af1f4b8b9dd1adb733330, type: 3}
-  - {fileID: 21300000, guid: f32276d05ac730140938944ce1613ad5, type: 3}
-  - {fileID: 21300000, guid: ea654c8b6b0fafa4791d43db658a7aac, type: 3}
-  - {fileID: 21300000, guid: bb4a8dfd881c5ca4ea1562d253ea4fb9, type: 3}
-  - {fileID: 21300000, guid: e6eda598cadf8b34bbb6dc520aa0ee1b, type: 3}
-  - {fileID: 21300000, guid: 3fba26908fdd0c043bde59d24c0075ec, type: 3}
-  - {fileID: 21300000, guid: cfc2bdf287d22a1409ce21099878e3d9, type: 3}
-  - {fileID: 21300000, guid: a4e1f0e4ccdf089439d174fb509fc04b, type: 3}
-  - {fileID: 21300000, guid: 6887ef14ad55c43479bc8d8afe5bb3b3, type: 3}
-  - {fileID: 21300000, guid: f26b9d4e1f02cfb4b9ad157f9d9db784, type: 3}
-  - {fileID: 21300000, guid: 49c388cf95d3ff944b7062770d0f946c, type: 3}
-  - {fileID: 21300000, guid: 7b47abf3d48a7a44c86189515d0be843, type: 3}
-  - {fileID: 21300000, guid: 6a0391862f07ba944aa568969f8ebda7, type: 3}
-  - {fileID: 21300000, guid: a8865b6e925de5d43bfd2799ad2589d2, type: 3}
-  - {fileID: 21300000, guid: b03b47c36208ccb43b7e434df00c450f, type: 3}
-  - {fileID: 21300000, guid: 41dfdb3331a5f384cb944dce6171549a, type: 3}
-  ImageNames:
-  - "\u0410\u0440\u0440\u043E\u0440\u0443\u0442"
-  - "\u0411\u0430\u043C\u0438\u044F"
-  - "\u0411\u0440\u044E\u043A\u0432\u0430"
-  - "\u0414\u0430\u0439\u043A\u043E\u043D (\u044F\u043F\u043E\u043D\u0441\u043A\u0430\u044F
-    \u0440\u0435\u0434\u044C\u043A\u0430)"
-  - "\u041A\u0430\u0431\u0430\u0447\u043E\u043A"
-  - "\u041A\u0430\u043F\u0443\u0441\u0442\u0430 \u0431\u0435\u043B\u043E\u043A\u0430\u0447\u0430\u043D\u043D\u0430\u044F"
-  - "\u041A\u0430\u043F\u0443\u0441\u0442\u0430 \u043A\u0440\u0430\u0441\u043D\u043E\u043A\u043E\u0447\u0430\u043D\u043D\u0430\u044F"
-  - "\u041A\u0430\u0440\u0442\u043E\u0444\u0435\u043B\u044C"
-  - "\u041A\u0443\u043A\u0443\u0440\u0443\u0437\u0430"
-  - "\u041B\u0443\u043A-\u043F\u043E\u0440\u0435\u0439"
-  - "\u041C\u043E\u0440\u043A\u043E\u0432\u044C"
-  - "\u041E\u0433\u0443\u0440\u0435\u0446"
-  - "\u041F\u0435\u0440\u0435\u0446 \u0441\u043B\u0430\u0434\u043A\u0438\u0439 (\u0431\u043E\u043B\u0433\u0430\u0440\u0441\u043A\u0438\u0439)"
-  - "\u041F\u043E\u043C\u0438\u0434\u043E\u0440"
-  - "\u0420\u0435\u0434\u0438\u0441"
-  - "\u0420\u0435\u0434\u044C\u043A\u0430"
-  - "\u0420\u0435\u043F\u0430"
-  - "\u0421\u0432\u0435\u043A\u043B\u0430"
-  - "\u0422\u044B\u043A\u0432\u0430"
-  - "\u0427\u0430\u0439\u043E\u0442"
-  - "\u0427\u0435\u0441\u043D\u043E\u043A"
-  RightBorder: 0e0000001c0000002a00000038000000470000005500000063000000710000007f0000008e0000009c000000aa000000b8000000c6000000d5000000e3000000f1000000ff0000000d0100001c0100002c010000
   questions:
   - Title: "\u0412\u044B\u0431\u0435\u0440\u0438\u0442\u0435 \u0446\u0432\u0435\u0442,
       \u043A\u043E\u0442\u043E\u0440\u044B\u0439 \u043D\u0440\u0430\u0432\u0438\u0442\u0441\u044F
@@ -1481,7 +1496,7 @@ GameObject:
   - component: {fileID: 977674146}
   - component: {fileID: 977674145}
   m_Layer: 5
-  m_Name: bk
+  m_Name: QuestionPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2295,3 +2310,4 @@ SceneRoots:
   - {fileID: 509027888}
   - {fileID: 422452413}
   - {fileID: 855632833}
+  - {fileID: 109783275}

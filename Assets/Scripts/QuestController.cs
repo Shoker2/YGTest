@@ -41,28 +41,15 @@ public class QuestController : MonoBehaviour
         BtnText4.text = quest.Answer4;
     }
 
-    public static void OpenResultScene()
-    {
-        SceneManager.LoadScene(1);
-    }
-
     public void NextQuestion(int res)
     {
         DataHolder.questions[_nowQuestionID].res = res;
         _nowQuestionID++;
 
-        // Debug.Log(YandexGame.timerShowAd);
         if (DataHolder.questions.Length <= _nowQuestionID)
         {
             _nowQuestionID = DataHolder.questions.Length - 1;
-            /*panel.SetActive(false);
-            if (YandexGame.timerShowAd >= YandexGame.Instance.infoYG.fullscreenAdInterval)
-            {
-                YandexGame.FullscreenShow();
-            }
-            else OpenResultScene();*/
-
-            OpenResultScene();
+            ADSceneLoader.LoadScene(1);
         }
         else
         {
